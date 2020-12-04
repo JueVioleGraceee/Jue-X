@@ -407,7 +407,7 @@ def pilih_indo():
         print '\033[1;97m[\033[1;91m•\033[1;93m•\033[1;92m•\033[1;97m] \033[1;97mCP file tersimpan : out/ind1.txt'
         print 45* "\033[1;97m="
         raw_input("\033[1;97m[\033[1;97m Kembali \033[1;97m]")
-        os.system("python2 DILZ-R.py")
+        os.system("python2 Rizky-X.py")
 
 ##### CRACK LIKES #####
 def crack_likes():
@@ -547,7 +547,7 @@ def crack_likes():
         print '\033[1;97m[\033[1;93m•\033[1;97m] \033[1;97mCP file tersimpan : done/grup.txt'
         print 45* "\033[1;97m="
         raw_input("\033[1;97m[\033[1;97m Kembali \033[1;97m]")
-        os.system("python2 DILZ-R.py")
+        os.system("python2 Rizky-X.py")
         
         ######### DUMP ##########
 def dump():
@@ -619,7 +619,7 @@ def id_teman():
                 print("\r\033[1;97m[\033[1;95m+\033[1;97m] \033[1;97mFile tersimpan : \033[1;97mout/"+done)
                 print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
                 raw_input("\033[1;93m[ \033[1;97mKembali \033[1;93m]")
-                os.system("python2 DILZ-R.py")
+                os.system("python2 Rizky-X.py")
         except IOError:
                 print"\033[1;91m[!] Gagal membuat file"
                 raw_input("\n\033[1;93m[ \033[1;97mKembali \033[1;93m]")
@@ -635,7 +635,7 @@ def id_teman():
         except OSError:
                 print('\033[1;97m[\033[1;95m!\033[1;97m]\033[1;97m File anda tidak tersimpan !')
                 raw_input("\n\033[1;93m[ \033[1;97mKembali \033[1;93m]")
-                os.system("python2 DILZ-R.py")
+                os.system("python2 Rizky-X.py")
         except requests.exceptions.ConnectionError:
                 print"\033[1;97m[×] Tidak ada koneksi !"
                 keluar()
@@ -688,11 +688,11 @@ def idfrom_teman():
                 except OSError:
                 print"\033[1;97m[!] File Tidak Tersimpan "
                 raw_input("\n\033[1;93m[ \033[1;97mKembali \033[1;93m]")
-                os.system("python2 DILZ-R.py")
+                os.system("python2 Rizky-X.py")
         except IOError:
                 print"\033[1;97m[!] Error creating file"
                 raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
-                os.system("python2 DILZ-R.py")
+                os.system("python2 Rizky-X.py")
         except (KeyboardInterrupt,EOFError):
                 print("\033[1;97m[!] Terhenti")
                 raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
