@@ -1,5 +1,3 @@
-# Decompiled By RandiSrM 
-# Github : https://github.com/RANDIOLOY
 #!/usr/bin/python2
 # coding=utf-8
 
